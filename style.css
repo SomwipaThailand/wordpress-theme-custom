@@ -1,0 +1,64 @@
+/* สีพื้นฐาน */
+:root {
+    --primary-color: #19719C;   /* สี deep blue */
+    --secondary-color: #83B3CA; /* สี light blue */
+    --background-color: #FFFFFF;/* สีขาว */
+    --text-color: #000013;      /* สี grayish */
+    --dark-color: #5C5C68;      /* สี dark navy */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar .navbar-brand img {
+    max-height: 50px;
+    height: auto;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--background-color);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    filter: brightness(90%);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--background-color);
+    padding: 20px 0;
+}
+
+footer h5 {
+    color: var(--secondary-color);
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+/* ปรับแต่งเพิ่มเติมสำหรับความเข้ากัน */
+.container {
+    margin-top: 20px;
+}
