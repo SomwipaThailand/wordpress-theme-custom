@@ -11,10 +11,10 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--primary-color);">
+  <a class="navbar-brand" href="<?php echo home_url(); ?>">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Logo" height="50">
+  </a>
   <div class="container">
-    <a class="navbar-brand" href="<?php echo home_url(); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Logo" height="40">
-    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
