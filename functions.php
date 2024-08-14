@@ -14,4 +14,6 @@ function mytheme_register_nav_menus() {
     ));
 }
 
+// ตรวจสอบให้แน่ใจว่า style.css ถูกโหลด
+
 add_action('after_setup_theme', 'mytheme_register_nav_menus');
